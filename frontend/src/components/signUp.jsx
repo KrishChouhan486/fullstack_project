@@ -32,7 +32,7 @@ const Signup = () => {
         formDataToSend.append(key, formData[key]);
       }
 
-      const response = await axios.post('http://localhost:8003/api/v1/user/register', formDataToSend, {
+      const response = await axios.post('https://fullstack-project-ufns.onrender.com/api/v1/user/register', formDataToSend, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

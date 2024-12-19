@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8003/api/v1/user/login', {
+      const response = await axios.post('https://fullstack-project-ufns.onrender.com/api/v1/user/login', {
         email,
         password,
       });
