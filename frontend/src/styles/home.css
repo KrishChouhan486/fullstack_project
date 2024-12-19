@@ -1,0 +1,23 @@
+/* home.css */
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .btn-logout {
+    padding: 10px 20px;
+    background-color: #f44336; /* Red color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-logout:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
